@@ -1,16 +1,13 @@
 # My Project
 
-
-
 ## 📖 简介
-一个简单的示例项目，用于演示 README 规范。
+### 📖1.电平单向转换
+一个为单片机放大电平的mos电路，目的是将stm32输出的3.3v信号提高到5v，该设计可以保证100khz内的信号稳定。
+
+![架构图](./电平单向转换/mos1.png)
 
 ## ✨ 功能
-- 功能1：xxx
-- 功能2：yyy
+- 功能1：放大电平信号
+- 功能2：控制外接大电压电流线路通断
 
-## 🚀 快速开始
-```bash
-git clone https://github.com/user/repo.git
-npm install
-npm start
+
